@@ -27,7 +27,7 @@ const getProductData = async () => {
         decrementBtn.textContent = '-'; 
 
         const span = document.createElement('span');
-        span.innerText = "ADD TO CART";
+        span.innerText = "ADD";
 
         div.appendChild(image);
         div.appendChild(title);
@@ -36,6 +36,19 @@ const getProductData = async () => {
         div.appendChild(decrementBtn);
         div.appendChild(span);
         products.appendChild(div);
+
+        let counter = 0;
+        incrementBtn.addEventListener('click', () => {
+            counter++;
+            span.innerText = counter;
+        });
+        decrementBtn.addEventListener('click', () => {
+            if (counter > 0) {
+                counter--;
+                span.innerText = counter;
+            }
+        });
+
     });
     
 }

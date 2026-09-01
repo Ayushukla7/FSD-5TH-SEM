@@ -11,3 +11,11 @@
   font-size: 30px;
   text-align: center;
 }
+header {
+  background-color: #b7b935;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  height: 50px;
+  width: 100%;
+}
