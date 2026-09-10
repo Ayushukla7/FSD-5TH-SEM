@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #eef8f5;
+
+    padding: 30px;
+}
+
+
+.main-container {
+
+    width: 90vw;
+
+    min-height: 90vh;
+
+    margin: auto;
+
+    padding: 30px;
+
+    border: 0.2rem solid black;
+
+    border-radius: 0.8rem;
+
+    background-color: #f5fffc;
+}
+
+
+.main-container h1 {
+
+    margin-bottom: 25px;
+
+    font-size: 28px;
+}
+
+
+.job-container {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    padding: 20px;
+
+    background-color: beige;
+
+    border: 0.2rem solid red;
+
+    border-radius: 0.8rem;
+}
+
+
+.box {
+
+    display: inline-block;
+
+    width: 30%;
+
+    min-height: 280px;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    border: 1px solid #ddd;
+}
+
+
+.date {
+
+    display: inline-block;
+
+    padding: 7px 10px;
+
+    margin-bottom: 20px;
+
+    background-color: #edf5f2;
+
+    border-radius: 8px;
+
+    font-size: 12px;
+
+    color: #777;
+}
+
+
+.company {
+
+    font-size: 13px;
+
+    color: #777;
+
+    margin-bottom: 8px;
+}
+
+
+.heading {
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+
+.tags {
+
+    margin-bottom: 25px;
+}
+
+
+.tag {
+
+    display: inline-block;
+
+    padding: 6px 9px;
+
+    margin-right: 5px;
+
+    margin-bottom: 5px;
+
+    background-color: #edf7f4;
+
+    border-radius: 8px;
+
+    font-size: 11px;
+
+    color: #667;
+}
+
+
+.salary {
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+
+
+.location {
+
+    font-size: 11px;
+
+    color: #888;
+
+    margin-bottom: 20px;
+}
+
+
+.details {
+
+    padding: 9px 18px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background-color: #657d78;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+
+@media (max-width: 900px) {
+
+    .box {
+        width: 45%;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .box {
+        width: 100%;
+    }
+
+}
